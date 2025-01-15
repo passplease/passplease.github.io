@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-15T11:05:00+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">欢迎来到“寻巴蜀文化，探蓉城魅力”调研实践队主页！</title><subtitle>“寻巴蜀文化，探蓉城魅力”调研实践队成果展示网站</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/welcome-to-jekyll" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2025-01-13T12:51:49+08:00</published><updated>2025-01-13T12:51:49+08:00</updated><id>http://localhost:4000/jekyll/update/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/welcome-to-jekyll"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Jekyll requires blog post files to be named according to the following format: YEAR-MONTH-DAY-title.MARKUP Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: def print_hi(name) puts "Hi, #{name}" end print_hi('Tom') #=&gt; prints 'Hi, Tom' to STDOUT. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.]]></summary></entry><entry><title type="html">test</title><link href="http://localhost:4000/posts/math-test" rel="alternate" type="text/html" title="test" /><published>2019-07-24T00:00:00+08:00</published><updated>2019-07-24T00:00:00+08:00</updated><id>http://localhost:4000/posts/math-test</id><content type="html" xml:base="http://localhost:4000/posts/math-test"><![CDATA[<p>LaTeX渲染已经在全站头部文件引入，可以直接使用，公式块上下使用<code class="language-plaintext highlighter-rouge">$$</code>标明，内联公式则用<code class="language-plaintext highlighter-rouge">$</code>.</p>
+
+<p>最好不要让公式出现在文章摘要里。</p>
+
+<p>Jekyll的默认文章摘要是第一段，但是我在使用中发现它选取摘要不是很稳定，因此加入了手动摘要分割线，默认为<code class="language-plaintext highlighter-rouge">&lt;!-- more --&gt;</code>，并且加入了首页摘要的字符数限制。</p>
+
+<p>因此有特殊符号、内容的文章，建议将这些内容折叠在摘要以下。例如本文</p>
+
+<!-- more -->
+
+<p>Block math test</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$$
+\begin{align*}
+y = y(x,t) &amp;= A e^{i\theta} \\
+&amp;= A (\cos \theta + i \sin \theta) \\
+&amp;= A (\cos(kx - \omega t) + i \sin(kx - \omega t)) \\
+&amp;= A\cos(kx - \omega t) + i A\sin(kx - \omega t)  \\
+&amp;= A\cos \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big) + i A\sin \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big)  \\
+&amp;= A\cos \frac{2\pi}{\lambda} (x - v t) + i A\sin \frac{2\pi}{\lambda} (x - v t)
+\end{align*}
+$$
+
+</code></pre></div></div>
+
+\[\begin{align*}
+y = y(x,t) &amp;= A e^{i\theta} \\
+&amp;= A (\cos \theta + i \sin \theta) \\
+&amp;= A (\cos(kx - \omega t) + i \sin(kx - \omega t)) \\
+&amp;= A\cos(kx - \omega t) + i A\sin(kx - \omega t)  \\
+&amp;= A\cos \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big) + i A\sin \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big)  \\
+&amp;= A\cos \frac{2\pi}{\lambda} (x - v t) + i A\sin \frac{2\pi}{\lambda} (x - v t)
+\end{align*}\]
+
+<p>Inline math test <code class="language-plaintext highlighter-rouge">$\lim_{x \to \infty} \exp(-x) = 0$</code>, 
+$\lim_{x \to \infty} \exp(-x) = 0$</p>]]></content><author><name></name></author><category term="posts" /><summary type="html"><![CDATA[LaTeX渲染已经在全站头部文件引入，可以直接使用，公式块上下使用$$标明，内联公式则用$. 最好不要让公式出现在文章摘要里。 Jekyll的默认文章摘要是第一段，但是我在使用中发现它选取摘要不是很稳定，因此加入了手动摘要分割线，默认为&lt;!-- more --&gt;，并且加入了首页摘要的字符数限制。 因此有特殊符号、内容的文章，建议将这些内容折叠在摘要以下。例如本文 Block math test $$ \begin{align*} y = y(x,t) &amp;= A e^{i\theta} \\ &amp;= A (\cos \theta + i \sin \theta) \\ &amp;= A (\cos(kx - \omega t) + i \sin(kx - \omega t)) \\ &amp;= A\cos(kx - \omega t) + i A\sin(kx - \omega t) \\ &amp;= A\cos \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big) + i A\sin \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big) \\ &amp;= A\cos \frac{2\pi}{\lambda} (x - v t) + i A\sin \frac{2\pi}{\lambda} (x - v t) \end{align*} $$ \[\begin{align*} y = y(x,t) &amp;= A e^{i\theta} \\ &amp;= A (\cos \theta + i \sin \theta) \\ &amp;= A (\cos(kx - \omega t) + i \sin(kx - \omega t)) \\ &amp;= A\cos(kx - \omega t) + i A\sin(kx - \omega t) \\ &amp;= A\cos \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big) + i A\sin \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big) \\ &amp;= A\cos \frac{2\pi}{\lambda} (x - v t) + i A\sin \frac{2\pi}{\lambda} (x - v t) \end{align*}\] Inline math test $\lim_{x \to \infty} \exp(-x) = 0$, $\lim_{x \to \infty} \exp(-x) = 0$]]></summary></entry></feed>
