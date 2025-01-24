@@ -386,7 +386,7 @@ img {
 }
 
 .site-name {
-  margin: 65px auto;
+  margin: 60px auto;
   color: #343a40;
   cursor: pointer;
   font-family: "Noto Serif", "PT Serif", source-han-serif-sc, "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif TC", "Source Han Serif TW", "Source Han Serif", "Songti SC", SimSon, serif;
@@ -396,7 +396,7 @@ img {
 }
 
 .site-description {
-  margin: 65px auto;
+  margin: 60px auto;
   color: #868e96;
   font-size: 16px;
 }
