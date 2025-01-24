@@ -326,7 +326,7 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 .wrapper-sidebar {
-  width: 30%;
+  width: 20%;
   -webkit-background-size: cover;
   background-size: cover;
   background-color: #f8f9fa;
@@ -386,7 +386,7 @@ img {
 }
 
 .site-name {
-  margin: 0 auto;
+  margin: 65px auto;
   color: #343a40;
   cursor: pointer;
   font-family: "Noto Serif", "PT Serif", source-han-serif-sc, "Source Han Serif SC", "Source Han Serif CN", "Source Han Serif TC", "Source Han Serif TW", "Source Han Serif", "Songti SC", SimSon, serif;
@@ -396,7 +396,7 @@ img {
 }
 
 .site-description {
-  margin: 15px auto;
+  margin: 65px auto;
   color: #868e96;
   font-size: 16px;
 }
@@ -438,7 +438,7 @@ nav a {
 
 .wrapper-content {
   float: right;
-  width: 70%;
+  width: 80%;
 }
 @media screen and (max-width: 1200px) {
   .wrapper-content {

@@ -320,7 +320,7 @@ img {
 //
 
 .wrapper-sidebar {
-  width: 30%;
+  width: 20%;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-color: $background-color;
@@ -378,7 +378,7 @@ img {
 }
 
 .site-name {
-  margin: 0 auto;
+  margin: 65px auto;
   color: $base-color;
   cursor: pointer;
   font-family: $base-font;
@@ -388,7 +388,7 @@ img {
 }
 
 .site-description {
-  margin: 15px auto;
+  margin: 65px auto;
   color: $base-lighten-color;
   font-size: 16px;
 
@@ -430,7 +430,7 @@ nav {
 
 .wrapper-content {
   float: right;
-  width: 70%;
+  width: 80%;
 
   @include mobile {
     float: none;
