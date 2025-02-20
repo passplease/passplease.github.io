@@ -24,7 +24,7 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   “寻巴蜀文化，探蓉城魅力”调研实践队成果展示网站
 baseurl: "" # the subpath of your site, e.g. /blog
-paginate: 8
+paginate: 80
 excerpt_separator: <!-- More -->
 navigation:
   - name: 首页
