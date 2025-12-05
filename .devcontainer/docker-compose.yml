@@ -1,0 +1,12 @@
+services:
+  website:
+    build:
+      dockerfile: Dockerfile
+    volumes:
+      - ../Chirpy/_posts:/website/_posts
+      - ../Chirpy/_data:/website/data
+      - ../Chirpy/_tabs:/website/_tabs
+      - ../Chirpy/assets/img:/website/assets/img
+      - ../Chirpy/commons:/website/commons
+      - ../Chirpy/_config.yml:/website/_config.yml
+      - ./.idea:/website/.idea
