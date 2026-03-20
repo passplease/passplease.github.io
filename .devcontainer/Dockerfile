@@ -13,8 +13,9 @@ RUN apt-get update && apt-get install -y curl \
     && npm install -g @qwen-code/qwen-code@latest \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-RUN bundle config mirror.https://rubygems.org https://gems.ruby-china.com \
-    && bundle install \
+RUN bundle install \
     && npm config set registry https://registry.npmmirror.com \
     && npm install \
     && npm run build
+
+CMD ["sh","-c","npm install && npm run build && jekyll server"]
