@@ -10,3 +10,6 @@ services:
       - ../Chirpy/commons:/website/commons
       - ../Chirpy/_config.yml:/website/_config.yml
       - ./.idea:/website/.idea
+    ports:
+      - '4000:4000'
+    tty: true
